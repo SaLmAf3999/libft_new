@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fakayumo <fakayumo@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: fakayumo <fakayumo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 16:46:02 by fakayumo          #+#    #+#             */
-/*   Updated: 2022/11/16 16:49:40 by fakayumo         ###   ########.fr       */
+/*   Updated: 2022/11/21 15:17:23 by fakayumo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,8 @@
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substr;
-	size_t  substr_length;
-	size_t  index;
+	size_t	substr_length;
+	size_t	index;
 
 	if (!s)
 		return (NULL);
@@ -32,7 +32,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!substr)
 		return (NULL);
 	index = 0;
-    while (index < len)
+	while (index < len)
 	{
 		substr[index] = s[index + start];
 		index++;

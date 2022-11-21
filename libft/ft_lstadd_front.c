@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fakayumo <fakayumo@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: fakayumo <fakayumo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 16:43:13 by fakayumo          #+#    #+#             */
-/*   Updated: 2022/11/16 16:43:14 by fakayumo         ###   ########.fr       */
+/*   Updated: 2022/11/21 14:44:45 by fakayumo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

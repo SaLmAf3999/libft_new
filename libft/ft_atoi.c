@@ -3,25 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fakayumo <fakayumo@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: fakayumo <fakayumo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 16:41:07 by fakayumo          #+#    #+#             */
-/*   Updated: 2022/11/16 16:41:08 by fakayumo         ###   ########.fr       */
+/*   Updated: 2022/11/21 14:11:21 by fakayumo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
-	int index;
-	unsigned int result;
-	int sign;
+	int				index;
+	unsigned int	result;
+	int				sign;
 
 	index = 0;
 	result = 0;
 	sign = 1;
-
 	while (str[index] == 32 || (str[index] >= 9 && str[index] <= 13))
 		index++;
 	if (str[index] == '-' || str[index] == '+')

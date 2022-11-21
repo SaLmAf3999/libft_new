@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fakayumo <fakayumo@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: fakayumo <fakayumo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 16:43:40 by fakayumo          #+#    #+#             */
-/*   Updated: 2022/11/16 16:43:41 by fakayumo         ###   ########.fr       */
+/*   Updated: 2022/11/21 14:49:55 by fakayumo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ t_list	*ft_lstlast(t_list *lst)
 
 	node = lst;
 	if (node == NULL)
-            return (NULL);
+		return (NULL);
 	while (node->next != NULL)
-            node = node->next;
-    return (node);
+			node = node->next;
+	return (node);
 }

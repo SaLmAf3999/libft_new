@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fakayumo <fakayumo@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: fakayumo <fakayumo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 16:44:58 by fakayumo          #+#    #+#             */
-/*   Updated: 2022/11/16 16:44:59 by fakayumo         ###   ########.fr       */
+/*   Updated: 2022/11/21 15:09:19 by fakayumo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static	int	ft_count_w(const char *s, char c)
 
 static	char	*ft_word_dup(const char *s, char c)
 {
-    char	*word_c;
+	char	*word_c;
 	int		i;
 	int		size;
 

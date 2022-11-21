@@ -3,21 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fakayumo <fakayumo@student.42abudhabi.a    +#+  +:+       +#+        */
+/*   By: fakayumo <fakayumo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/16 16:42:19 by fakayumo          #+#    #+#             */
-/*   Updated: 2022/11/16 16:42:20 by fakayumo         ###   ########.fr       */
+/*   Updated: 2022/11/21 14:23:36 by fakayumo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    if (c >= '0' && c <= '9')
-    {
-        return (1);
-    }
-    else
-        return (0);
+	if (c >= '0' && c <= '9')
+	{
+		return (1);
+	}
+	else
+		return (0);
 }
